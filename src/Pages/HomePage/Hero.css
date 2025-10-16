@@ -1,0 +1,105 @@
+.slick-slider.slick-initialized {
+    background: url(../../assets/images/blue-bg.png) no-repeat center center;
+    background-size: cover;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 50px;
+}
+
+.slick-prev:before {
+    content: "" !important;
+    background: url("../../assets/icons/left-arrow.png") no-repeat center center !important;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+    position: relative;
+    z-index: 9999;
+}
+
+.slick-prev {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+   left: -53px;
+    z-index: 9999;
+
+}
+
+.slick-next {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+
+}
+
+.slick-next:before {
+    content: "" !important;
+    background: url("../../assets/icons/right-arrow.png") no-repeat center center !important;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+}
+
+.slide-box {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.slide-box img {
+
+    width: 100%;
+    height: auto;
+}
+
+.slide-inner-left {
+    color: #fff;
+}
+
+.slide-inner-left h2 {
+    font-weight: bold;
+    font-size: 63px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.slide-inner-left span {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.slick-dots {
+  bottom: 20px;
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+}
+
+.slick-dots li {
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.slick-dots li button {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+  border: none;
+  padding: 0;
+}
+
+.slick-dots li.slick-active button {
+  width: 24px;
+  background-color: #fff;
+}
+
+.slick-dots li button:before {
+  display: none;
+}

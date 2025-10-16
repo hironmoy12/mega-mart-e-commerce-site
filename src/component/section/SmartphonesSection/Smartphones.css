@@ -1,0 +1,28 @@
+.product-page-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 50px auto;
+    color: #666666;
+    font-size: 24px;
+    font-weight: 700;
+}
+.product-page-top span{
+    color: #008ECC;
+}
+
+.product-right-text a{
+     color: #666666;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.product-left-text{
+    border-bottom: 3px solid #008ECC;
+
+}
+
+.product-left-text p{
+        margin-bottom: 17px;
+}
