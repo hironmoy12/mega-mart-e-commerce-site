@@ -11,8 +11,10 @@ function SmartPhoneCard() {
             <img src={item.image} alt={item.title} />
           </div>
           <h3 className="phone-title">{item.title}</h3>
+          <div className="price">
           <p className="phone-price">{item.price}</p>
           <p className="phone-discount">{item.discount}</p>
+          </div>
           <p className="phone-save-price">{item.save}</p>
         </div>
       ))}

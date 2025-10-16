@@ -1,6 +1,8 @@
 .product-card {
     display: flex;
     justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
 }
 .phone-image img{
     width: 126px;
@@ -8,11 +10,25 @@
     object-fit: cover;
 }
 .phone-image {
-    display: flex;
+       display: flex;
     align-items: center;
     justify-content: center;
     background: #EDEDED;
+    border-radius: 20px;
 }
 .phone-discount{
     text-decoration: line-through;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+p.phone-discount {
+    color: grey;
+}
+
+p.phone-save-price {
+color: green;
 }
