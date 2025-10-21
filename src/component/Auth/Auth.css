@@ -1,0 +1,86 @@
+
+
+
+
+.signin-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #008ecc;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 142, 204, 0.3);
+}
+
+.error {
+  color: #e63946;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.signin-btn {
+  background: #008ecc;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signin-btn:hover {
+  background: #0077b6;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #008ecc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.switch-btn {
+  background: none;
+  border: none;
+  color: #008ecc;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.switch-btn:hover {
+  text-decoration: underline;
+}

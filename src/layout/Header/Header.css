@@ -1,7 +1,7 @@
 .header {
     position: relative;
   top: 0;
-  z-index: 1000;
+  z-index: 99;
 }
 
 .header-container {
@@ -112,3 +112,89 @@
     padding: 9px;
 }
 
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #fff;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+      width: 100%;
+}
+
+.nav-item {
+     position: relative;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    background: #F3F9FB;
+    border-radius: 50px;
+    justify-content: center;
+  
+}
+
+.nav-item span {
+  padding: 10px;
+  display: inline-block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-width: 180px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.dropdown li {
+  list-style: none;
+  padding: 8px 12px;
+  transition: background 0.3s ease;
+}
+
+.dropdown li:hover {
+  background-color: #f0f0f0;
+}
+
+ul.dropdown {
+    display: none;
+    margin-top: 3px;
+}
+.nav-item:hover .dropdown {
+  display: block;
+ 
+}
+
+.nav-item:hover{
+   background: #008ECC;
+   color: #fff;
+}
+
+.nav-item:hover .arrow img {
+     filter: brightness(0) invert(1);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+/* .icon span, .icon img {
+  pointer-events: auto; 
+} */
