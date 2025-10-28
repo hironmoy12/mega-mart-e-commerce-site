@@ -86,7 +86,7 @@ function SignIn({ onSwitch }) {
         <p className="switch-text">
           Don’t have an account?{" "}
           <span className="switch-link" onClick={onSwitch}>
-            Sign Up
+         <b><u>Sign Up</u> </b>  
           </span>
         </p>
       </form>

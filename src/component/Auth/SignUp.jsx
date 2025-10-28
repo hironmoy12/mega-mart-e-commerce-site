@@ -19,8 +19,10 @@ function SignUp({ onSwitch }) {
   const validate = () => {
     let tempErrors = {};
 
-    if (!formData.firstName.trim()) tempErrors.firstName = "First name is required";
-    if (!formData.lastName.trim()) tempErrors.lastName = "Last name is required";
+    if (!formData.firstName.trim())
+      tempErrors.firstName = "First name is required";
+    if (!formData.lastName.trim())
+      tempErrors.lastName = "Last name is required";
 
     if (!formData.email) {
       tempErrors.email = "Email is required";
@@ -47,10 +49,10 @@ function SignUp({ onSwitch }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validate()) {
-      // Check for existing users in localStorage
+   
       const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
 
-      // Check if email already exists
+  
       const emailExists = existingUsers.some(
         (user) => user.email === formData.email
       );
@@ -59,12 +61,12 @@ function SignUp({ onSwitch }) {
         return;
       }
 
-      // Add new user
+    
       const newUser = {
         firstName: formData.firstName,
         lastName: formData.lastName,
         email: formData.email,
-        password: formData.password, // Note: Plain text password, not secure for real apps
+        password: formData.password, 
       };
 
       const updatedUsers = [...existingUsers, newUser];
@@ -109,9 +111,7 @@ function SignUp({ onSwitch }) {
             value={formData.lastName}
             onChange={handleChange}
           />
-          {errors.lastName && (
-            <span className="error">{errors.lastName}</span>
-          )}
+          {errors.lastName && <span className="error">{errors.lastName}</span>}
         </div>
 
         <div className="form-group">
@@ -133,9 +133,7 @@ function SignUp({ onSwitch }) {
             value={formData.password}
             onChange={handleChange}
           />
-          {errors.password && (
-            <span className="error">{errors.password}</span>
-          )}
+          {errors.password && <span className="error">{errors.password}</span>}
         </div>
 
         <div className="form-group">
@@ -158,7 +156,9 @@ function SignUp({ onSwitch }) {
         <p className="switch-text">
           Already have an account?{" "}
           <span className="switch-link" onClick={onSwitch}>
-            Sign In
+            <b>
+              <u> Sign In</u>
+            </b>
           </span>
         </p>
       </form>

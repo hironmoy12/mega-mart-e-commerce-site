@@ -1,19 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
 import Header from './layout/Header/Header'
 import Hero from './Pages/HomePage/Hero'
 import Product from './Pages/ProductsPage/Product'
 import SmartphonesSection from './component/section/SmartphonesSection/SmartphonesSection'
+import { useCount } from './hooks/useCount'
 
 function App() {
 
-
+  const {count,increment,decrement,reset,displayMyName} = useCount();
+  const [name,setName]= useState('');
   return (
     <>
-   <Header />
-   <Hero />
-   {/* <Product /> */}
-   <SmartphonesSection />
+    <Header />
+    <Hero />
+    <Product />
+    <SmartphonesSection /> 
+{/* <div>
+     sadsa
+        <p>{count}</p> 
+       <button onClick={increment} >increment</button>
+       <button onClick={decrement} >decrement</button>
+       <button onClick={reset} >reset</button>
+       <button onClick={()=>{
+        setName(displayMyName('Hironmoy'));
+        increment();
+       }} >click here to display my name</button>
+
+        <p>{name}</p>
+</div> */}
     </>
   )
 }
