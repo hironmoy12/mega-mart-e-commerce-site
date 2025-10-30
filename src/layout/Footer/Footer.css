@@ -1,0 +1,126 @@
+
+.footer-container {
+  background-color: #008cdd; 
+  color: white;
+  padding: 50px 5%; 
+  font-family: Arial, sans-serif;
+  margin-top: 150px;
+}
+
+
+.footer-main-content {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto; 
+  gap: 20px; 
+   background: url(../../assets/images/footer-circle.png) no-repeat top right;
+}
+
+.footer-column {
+  flex: 1; 
+  min-width: 220px; 
+  margin-bottom: 30px;
+}
+
+
+.footer-logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0 0 25px 0;
+}
+
+.footer-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+.footer-heading.underline {
+  display: inline-block; 
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 12px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-details span {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.contact-details a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.download-heading {
+  margin-top: 30px;
+}
+
+.app-badges {
+  display: flex;
+  gap: 10px;
+}
+
+.app-badges img {
+  height: 40px; 
+  width: auto;
+}
+
+
+.links-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links-column li {
+  margin-bottom: 12px;
+}
+
+.links-column a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.links-column a:hover {
+  text-decoration: underline;
+}
+
+
+.footer-bottom-bar {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 25px;
+  margin-top: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-bottom-bar p {
+  margin: 0;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+

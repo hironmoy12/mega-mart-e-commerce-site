@@ -9,7 +9,7 @@ function CategoryCard() {
             <div className="phone-image cat">
               <img src={Category.icon} alt={Category.name} />
             </div>
-            <h3 className="phone-title">{Category.name}</h3>
+            <h3 className="phone-title cat">{Category.name}</h3>
             
         
           </div>

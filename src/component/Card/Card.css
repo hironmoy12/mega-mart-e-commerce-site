@@ -43,3 +43,38 @@ object-fit: contain !important;
 .phone-card.cat {
     text-align: center;
 }
+
+h3.phone-title.cat {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+/* .phone-image.cat img:nth-child(1) {
+    border: 1px solid #008ECC;
+    border-radius: 50%;
+    padding: 10px;
+    width: 132px;
+    height: 132px;
+} */
+
+.phone-card.ess {
+    text-align: center;
+    
+}
+h3.phone-title.ess {
+font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #666666;
+}
+
+span.discount-text{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #222222;
+}
+
+.phone-image.ess img {
+object-fit: contain;
+}

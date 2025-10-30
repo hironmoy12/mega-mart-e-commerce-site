@@ -18,6 +18,18 @@ function BrandsSection() {
 
   return (
     <>
+     <div className="product-page">
+      <div className="product-page-top">
+        <div className="product-left-text">
+          <p>
+         Top  <span>Electronics Brands</span>
+          </p>
+        </div>
+         <div className="product-right-text">
+          <a href="#">View All  </a>
+        </div> 
+      </div>
+    </div>
       <Slider className="brand" {...settings}>
         {brands.map((slide) => (
           <div key={slide.id} className="slide-box brand">

@@ -7,6 +7,8 @@ import SmartphonesSection from './component/section/SmartphonesSection/Smartphon
 import { useCount } from './hooks/useCount'
 import CategoriesSection from './component/section/CategoriesSection/CategoriesSection'
 import BrandsSection from './component/section/BrandsSection/BrandsSection'
+import EssentialsSection from './component/section/EssentialsSection/EssentialsSection'
+import Footer from './layout/Footer/Footer'
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
     <SmartphonesSection /> 
     <CategoriesSection />
     <BrandsSection />
+    <EssentialsSection />
+    <Footer />
 {/* <div>
      sadsa
         <p>{count}</p> 
