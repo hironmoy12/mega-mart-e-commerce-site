@@ -5,6 +5,8 @@ import Hero from './Pages/HomePage/Hero'
 import Product from './Pages/ProductsPage/Product'
 import SmartphonesSection from './component/section/SmartphonesSection/SmartphonesSection'
 import { useCount } from './hooks/useCount'
+import CategoriesSection from './component/section/CategoriesSection/CategoriesSection'
+import BrandsSection from './component/section/BrandsSection/BrandsSection'
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
     <Hero />
     <Product />
     <SmartphonesSection /> 
+    <CategoriesSection />
+    <BrandsSection />
 {/* <div>
      sadsa
         <p>{count}</p> 

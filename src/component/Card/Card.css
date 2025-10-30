@@ -32,3 +32,14 @@ p.phone-discount {
 p.phone-save-price {
 color: green;
 }
+
+.phone-image.cat img {
+object-fit: contain !important;
+}
+.phone-image.cat{
+    background: transparent;
+
+}
+.phone-card.cat {
+    text-align: center;
+}

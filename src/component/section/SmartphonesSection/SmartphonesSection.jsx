@@ -10,12 +10,12 @@ function SmartphonesSection() {
       <div className="product-page-top">
         <div className="product-left-text">
           <p>
-            {/* Grab the best deal on <span>Smartphones</span> */}
+            Grab the best deal on <span>Smartphones</span>
           </p>
         </div>
-        {/* <div className="product-right-text">
+         <div className="product-right-text">
           <a href="#">View All  </a>
-        </div> */}
+        </div> 
       </div>
     </div>
 

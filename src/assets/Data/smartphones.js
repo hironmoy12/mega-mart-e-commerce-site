@@ -6,3 +6,4 @@ export const smartphones = [
   { "id": 4, "image": "src/assets/images/mobile-3.png", "title": "Galaxy M53 (4GB | 64 GB )", "price": 14999, "discount": "Save ₹1500", "save": "Save - ₹9000" },
   { "id": 5, "image": "src/assets/images/mobile-3.png", "title": "Galaxy S22 Ultra", "price": "₹59999", "discount": "₹69999", "save": "Save - ₹18000" },
 ];
+

@@ -1,0 +1,26 @@
+.slick-slider.brand.slick-initialized {
+background: none !important;
+}
+
+.slick-slider.brand.slick-initialized  .slide-box img{
+    width: auto;
+}
+
+ul.slick-dots {
+justify-content: center;
+}
+
+.slick-dots li.slick-active button {
+  width: 24px;
+  background-color: #008ECC;
+}
+
+.slick-dots li button {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+  border: none;
+  padding: 0;
+}
